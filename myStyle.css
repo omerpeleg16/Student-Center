@@ -1,0 +1,1125 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Fredoka:wght@300..700&display=swap');
+
+body {
+    direction: rtl;
+    font-family: "Assistant", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: #054462;
+    background-color: #F9F9F7;
+    width: 1280px;
+    margin: auto 0;
+    font-size: 1.5vw;
+}
+
+#container * {
+    font-family: "Assistant", sans-serif;
+    margin: 1px,20px,1px,1px;
+}
+
+/*כפתור לראש העמוד*/
+.upLink a {
+    text-decoration: none;
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: #054462;
+    background-color: #92C7B3;
+    border-radius: 15px;
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+    padding: 20px;
+}
+
+.upLink a:hover {
+    background-color: #054462;
+    color: #92C7B3;
+}
+/*תפריט פירורים*/
+.menuSteps ol li {
+    display: inline-block;
+    list-style: none;
+    margin-top: 40px;
+}
+
+.menuSteps ol li:after {
+    content: ">";
+ }
+
+.menuSteps ol li:last-child:after {
+    content: " ";
+ }
+
+/*כותרת ראשית*/
+.mainTitlePage {
+    text-align: center;
+    font-size: 4.5vw;
+    font-weight: bold;
+    padding: 3%;
+}
+
+/*תפריט ניווט*/
+.menu {
+    float: inline-end;
+    position: fixed;
+    top: 0%;
+    z-index: 10;
+}
+
+.menu .mainTable {
+    margin: 0 auto;
+    width: 1280px;
+    list-style: none;
+}
+
+.menu .mainTable .level1 {
+    display: inline-block;
+    float: right;
+}
+
+.menu .mainTable li a {
+    display: block;
+    background-color: #054462;
+    color: #F9F9F7;
+    padding: 10px 0PX;
+    height: 20px;
+    width: 160px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menu .mainTable .level1 a:hover {
+    background-color: #92C7B3;
+}
+
+.menu .mainTable .level1 .secondTable {
+   display: none;
+   position: absolute;
+ }
+      
+.menu .mainTable .level1:hover .secondTable {
+    display: block;
+    width: 130px;
+}
+
+ .menu .secondTable .level2 .thirdTable {
+    display: none;
+    position: absolute;
+}
+    
+.menu .secondTable .level2:hover .thirdTable {
+   display: block;
+   width: 130px;
+}
+
+#smallLogo {
+    width: 100%;
+    height: auto;
+    max-width: 35px;
+    margin-left: 10px;
+}
+/*footer*/
+.footerM {
+    width: 100%;
+    list-style: none;
+    background-color: #054462;
+    margin-block-end: auto;
+    display: flex;
+    justify-content: center;
+}
+
+    .footerM .FOOTERTable .footerLink {
+        display: inline-block;
+        list-style: none;
+    }
+
+        .footerM .FOOTERTable .footerLink a {
+            display: block;
+            background-color: #054462;
+            color: #F9F9F7;
+            padding: 10px 0PX;
+            height: 20px;
+            width: 390px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+            .footerM .FOOTERTable .footerLink a:hover {
+                background-color: #92C7B3;
+            }
+
+/*דף הבית*/
+.topTitle {
+    text-align: center;
+    color: #92C7B3;
+    padding: 4%;
+    margin: 2% 5% 1%;
+}
+
+#MainTitle {
+    padding: 4.5%;
+    float: right;
+    font-size: 4.7vw;
+    font-weight: bold;
+    text-align: center;
+}
+
+#secandTaitle {
+    float: right;
+    font-size: 2vw;
+    font-weight: bold;
+    margin-top: 2.5%;
+    padding:5%;
+    position: absolute;
+}
+
+.topTitle img {
+    position: absolute;
+    float: left;
+    width: 100%;
+    height: auto;
+    max-width: 30%;
+    left: 10%;
+}
+
+#start {
+    font-weight: bold;
+    position: absolute;
+    color: #F59E7B;
+    padding: 22% 30% 10% 22%;
+    font-size: 2.3vw;
+    height: 50px;
+}
+
+.HowWeAre {
+    padding: 20% 20% 10% 0px;
+    position: relative;
+}
+
+.textHowWeAre h2 {
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.textHowWeAre {
+    text-align: justify;
+    margin: 1% 27%;
+    line-height: 1.5;
+}
+
+.HowWeAre img {
+    float: right;
+    max-width: 20%;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+.rightForYou {
+    margin: 0px 10% 5%;
+    height: 400px;
+    width: 80%;
+    position: relative;
+    background-color: #054462;
+    color: #F9F9F7;
+    border: 2px solid #054462;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 1;
+}
+
+.rightForYou h2 {
+     padding: 10px 1%;
+     font-size: 2vw;
+     font-weight: bold;
+     text-align: center;
+}
+
+.rightForYou img {
+     max-width: 100px;
+     width: 100%;
+     height: auto;
+     border-radius: 60px;
+     background-color: #92C7B3;
+
+}
+
+.RFYreason1 {
+    height: 170px;
+    width: 170px;
+    margin: 5px 10%;
+    float: right;
+    position: absolute;
+}
+
+.RFYreason2 {
+    margin: 5px 40%;
+    height: 170px;
+    width: 170px;
+    position: absolute;
+}
+
+.RFYreason3 {
+    position: absolute;
+    height: 170px;
+    width: 170px;
+    margin: 5px 70%;
+}
+
+.rightPlace {
+    margin: 300px 40% 0px;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+/*גוף ונפש-דף ראשי*/
+div div div div p {
+    font-weight: bold;
+}
+
+#bodyNsoulhero {
+    margin-right: 5%;
+}
+
+#bodyNsoulhero h2 {
+    font-size: 2.5vw;
+    padding: 5px 0px;
+    width: 600px;
+}
+
+#bodyNsoulhero img {
+    float: left;
+    display: inline-block;
+    height: auto;
+    width: 100%;
+    max-width: 400px;
+    position: relative;
+    border-radius: 20px;
+    margin-left: 100px;
+}
+
+.bodyNsoulMainText {
+    line-height: 1.5;
+    font-weight: normal;
+    font-size: 1.5vw;
+    width: 650px;
+}
+
+.Qustions {
+    font-size: 1.8vw;
+    font-weight: normal;
+}
+
+.Qustions b {
+    font-size: 1.8vw;
+    color: #92C7B3;
+}
+
+#learnMore h2 {
+    font-size: 2vw;
+}
+
+#why {
+    font-size: 2vw;
+}
+
+.TextWhy {
+    margin: 2% 5%;
+    height: auto;
+    width: 100%;
+    max-width: 80%;
+    text-align: right;
+    line-height: 1.5;
+    position: relative;
+}
+
+#whyBold {
+    background-color: #92C7B3;
+    float: right;
+    border: 20px solid #92C7B3;
+    border-radius: 2vw;
+    margin: 3px;
+}
+
+#learnMore {
+    margin: 10% 5% 2%;
+    position: relative;
+}
+
+#learnMore h2 {
+    position: relative;
+    text-align: right;
+}
+
+.LinkBASMain a {
+    text-align: center;
+    font-size: 2.2vw;
+    font-weight: bold;
+    margin-right: 5px;
+    position: relative;
+    text-decoration: none;
+    background-color: #C4D6CF;
+    border: 20px solid #C4D6CF;
+    border-radius: 20px;
+    color: #054462;
+}
+
+.LinkBASMain a:hover {
+    background-color: #054462;
+    border: 20px solid #054462;
+    border-radius: 20px;
+    color: #92C7B3;
+}
+
+.reasonBAS1 {
+    line-height: 1.5;
+    margin: 2%;
+    height: auto;
+    width: 100%;
+    max-width: 500px;
+}
+
+.reasonBAS2 {
+    line-height: 1.5;
+    margin: 0px 2%;
+    height: auto;
+    width: 100%;
+    max-width: 500px;
+}
+
+.TextHow {
+    height: auto;
+    max-width: 80%;
+    width: 100%;
+    background-color: #C4D6CF;
+    float: right;
+    border: 20px solid #C4D6CF;
+    border-radius: 20px;
+    text-align: right;
+    margin: 20% 2% 0px;
+    line-height: 1.5;
+    position: relative;
+}
+
+.TextHow p {
+   font-weight: bold;
+   line-height: 1.5;
+   font-size: 2vw;
+   text-align: right;
+ }
+
+ .TextHow ul {
+   padding: 1%;
+   list-style-type: circle;
+   line-height: 2;
+}
+
+/*דפי תוכן גוף ונפש*/
+.LinkBAS a {
+    text-align: center;
+    font-size: 2vw;
+    font-weight: bold;
+    position: relative;
+    right: 35%;
+    margin: 1%;
+    text-decoration: none;
+    background-color: #C4D6CF;
+    border: 20px solid #C4D6CF;
+    border-radius: 20px;
+    color: #054462;
+}
+
+ .LinkBAS a:hover {
+    background-color: #054462;
+    border: 20px solid #054462;
+    border-radius: 20px;
+    color: #92C7B3;
+ }
+
+#LinkPage {
+    background-color: #92C7B3;
+    border: 20px solid #92C7B3;
+    border-radius: 20px;
+}
+
+#LinkPage:hover {
+    background-color: #054462;
+    border: 20px solid #054462;
+    border-radius: 20px;
+    color: #92C7B3;
+ }
+
+#intro {
+    padding: 5%;
+}
+
+#intro h2 {
+    font-size: 2.5vw;
+    font-weight: bold;
+    padding: 1% 0px;
+ }
+
+ #intro img {
+    float: left;
+    padding: 10px 0px 0px 12px;
+    height: auto;
+    width: 100%;
+    max-width: 280px;
+    position: relative;
+ }
+
+.textIntro {
+    line-height: 1.5;
+    padding: 1% 10%;
+    height: auto;
+    width: 100%;
+    max-width: 600px;
+    position: absolute;
+}
+
+.TextWhyIsItImpo p {
+    font-weight: bold;
+    line-height: 2;
+}
+
+.titleTip {
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 2vw;
+}
+
+.tip1 {
+    margin: 17% 17% 0px 15%;
+    color: #054462;
+    height: 250px;
+    width: 100%;
+    max-width: 70%;
+    display: block;
+}
+
+.numTip1 {
+    height: 150px;
+    width: 150px;
+    background-color: #C4D6CF;
+    float: left;
+    border: 20px solid #C4D6CF;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 1%;
+    font-weight: bold;
+    font-size: 7vw;
+}
+
+.textTip1 {
+    height: 150px;
+    width: 550px;
+    background-color: #C4D6CF;
+    float: right;
+    border: 20px solid #C4D6CF;
+    border-radius: 20px;
+    text-align: right;
+    padding: 1% 2% 0px 0px;
+}
+
+.tip2 {
+    margin: 0px 17% 0px 15%;
+    color: #C4D6CF;
+    height: 250px;
+    width: 100%;
+    max-width: 70%;
+    display: block;
+}
+
+.numTip2 {
+    height: 150px;
+    width: 150px;
+    background-color: #054462;
+    float: right;
+    border: 20px solid #054462;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 1%;
+    font-weight: bold;
+    font-size: 7vw;
+}
+
+.textTip2 {
+    height: 150px;
+    width: 550px;
+    background-color: #054462;
+    float: left;
+    border: 20px solid #054462;
+    border-radius: 20px;
+    text-align: right;
+    padding: 1% 2% 0px 0px;
+}
+
+.tip3 {
+    margin: 0px 17% 0px 15%;
+    color: #054462;
+    height: 250px;
+    width: 100%;
+    max-width: 70%;
+    display: block;
+}
+
+.numTip3 {
+    height: 150px;
+    width: 150px;
+    background-color: #C4D6CF;
+    float: left;
+    border: 20px solid #C4D6CF;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 1%;
+    font-weight: bold;
+    font-size: 7vw;
+}
+
+.textTip3 {
+    height: 150px;
+    width: 550px;
+    background-color: #C4D6CF;
+    float: right;
+    border: 20px solid #C4D6CF;
+    border-radius: 20px;
+    text-align: right;
+    padding: 1% 2% 0px 0px;
+}
+
+.tip4 {
+    margin: 0px 17% 0px 15%;
+    color: #C4D6CF;
+    height: 250px;
+    width: 100%;
+    max-width: 70%;
+    display: block;
+}
+
+.numTip4 {
+    height: 150px;
+    width: 150px;
+    background-color: #054462;
+    float: right;
+    border: 20px solid #054462;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 1%;
+    font-weight: bold;
+    font-size: 7vw;
+}
+
+.textTip4 {
+    height: 150px;
+    width: 550px;
+    background-color: #054462;
+    float: left;
+    border: 20px solid #054462;
+    border-radius: 20px;
+    text-align: right;
+    padding: 1% 2% 0px 0px;
+}
+
+.numTip1s {
+    height: 150px;
+    width: 150px;
+    background-color: #C4D6CF;
+    float: right;
+    border: 20px solid #C4D6CF;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 1%;
+    font-weight: bold;
+    font-size: 7vw;
+}
+
+.textTip1s {
+    height: 150px;
+    width: 550px;
+    background-color: #C4D6CF;
+    float: left;
+    border: 20px solid #C4D6CF;
+    border-radius: 20px;
+    text-align: right;
+    padding: 1% 2% 0px 0px;
+}
+
+.numTip2s {
+    height: 150px;
+    width: 150px;
+    background-color: #054462;
+    float: left;
+    border: 20px solid #054462;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 1.5;
+    padding-top: 1%;
+    font-weight: bold;
+    font-size: 7vw;
+}
+
+.textTip2s {
+    height: 150px;
+    width: 550px;
+    background-color: #054462;
+    float: right;
+    border: 20px solid #054462;
+    border-radius: 20px;
+    text-align: right;
+    padding: 1% 2% 0px 0px;
+}
+
+.numTip3s {
+    height: 150px;
+    width: 150px;
+    background-color: #C4D6CF;
+    float: right;
+    border: 20px solid #C4D6CF;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 1%;
+    font-weight: bold;
+    font-size: 7vw;
+}
+
+.textTip3s {
+    height: 150px;
+    width: 550px;
+    background-color: #C4D6CF;
+    float: left;
+    border: 20px solid #C4D6CF;
+    border-radius: 20px;
+    text-align: right;
+    padding: 1% 2% 0px 0px;
+}
+
+.numTip4s {
+    height: 150px;
+    width: 150px;
+    background-color: #054462;
+    float: left;
+    border: 20px solid #054462;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 1%;
+    font-weight: bold;
+    font-size: 7vw;
+}
+
+.textTip4s {
+    height: 150px;
+    width: 550px;
+    background-color: #054462;
+    float: right;
+    border: 20px solid #054462;
+    border-radius: 20px;
+    text-align: right;
+    padding: 1% 2% 0px 0px;
+}
+
+/*ניהול זמן-POMODORO*/
+.subTitlePomodoro {
+    color: #92C7B3;
+    font-size: 3vw;
+    font-Weight: bold;
+    text-align: right;
+    position: static;
+    margin: 3% 10%;
+}
+
+#PomodoroHeaderText {
+    text-align: right;
+    margin: 0px 10%;
+}
+
+#consept, #goal {
+    border: 5px solid #92C7B3;
+    border-radius: 15px;
+    text-align: right;
+    padding: 1%;
+    width: 100%;
+    max-width: 330px;
+    height: auto;
+    box-sizing: border-box;
+    margin-right: 10%;
+}
+
+#conseptNgoal {
+    margin: 4% 10%;
+    display: flex;
+    justify-content: right;
+    align-items: stretch;
+    gap: 4%;
+}
+
+#howMethodWork {
+    text-align: right;
+    margin-right: 1%;
+}
+
+.methodNimg {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-right: 10%;
+}
+
+#explaintionMethod {
+    font-size: 2vw;
+    color: #054462;
+    background-color: #92C7B3;
+    border-radius: 15px;
+    width: 100%;
+    height: auto;
+    padding: 1%;
+    display: inline-block;
+    line-height: 1.5;
+    margin: 2% 10% 2% 2%;
+    max-width: 560px;
+}
+
+#imgPomodoro {
+    width: 100%;
+    height: auto;
+    max-height: 250px;
+    max-width: 250px;
+    float: left;
+    margin-left: 20%
+}
+
+.midTitle {
+    font-size: 2.5vw;
+    font-Weight: bold;
+    text-align: right;
+    width: 650px;
+    margin-right: 4%;
+}
+
+.greenBackgroundText {
+    background-color: #C4D6CF;
+    border-radius: 15px;
+    width: 100%;
+    height: auto;
+    padding: 2% 2% 5%;
+    position: relative;
+    margin: 2%;
+    box-sizing: border-box;
+    align-items: center;
+    display: inline-block;
+    max-width: 320px;
+}
+
+#advantageMethod {
+    display: flex;
+    justify-content: center;
+}
+
+.greenBackgroundTips {
+    background-color: #C4D6CF;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    padding: 4% 2%;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+
+div .greenBackgroundTips p {
+    width: 100%;
+    max-width: 250px;
+    position: relative;
+    padding: 1% 3%;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+}
+
+.greenBackgroundTips img {
+    max-width: 70px;
+    height: auto;
+    border-radius: 40px;
+    background-color: #054462;
+    width: 100%;
+}
+
+#pomodoroLink {
+    font-weight: bold;
+    border: 5px solid #92C7B3;
+    border-radius: 15px;
+    text-align: center;
+    padding: 2%;
+    width: 100%;
+    max-width: 550px;
+    margin: auto;
+    font-size: 2vw;
+}
+
+#pomodoroLink a {
+    background-color: #92C7B3;
+    text-decoration: none;
+    color: #054462;
+    padding: 0.75%;
+    border-radius: 15px;
+    position: relative;
+ }
+
+ #pomodoroLink a:hover {
+     background-color: #054462;
+     color: #92C7B3;
+}
+
+/*אודות*/
+#titleAboutStudent {
+    color: #92C7B3;
+    font-size: 3vw;
+    font-weight: bold;
+    text-align: right;
+    margin: 2%;
+    width: auto;
+}
+
+#aboutText {
+    background-color: #C4D6CF;
+    border-radius: 15px;
+    position: static;
+    font-size: 2vw;
+    padding: 2%;
+    max-width: 850px;
+    width: 100%;
+    margin: 2%;
+}
+
+#ourLogo img {
+    float: left;
+    padding: 1%;
+    margin-left: 1%;
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+}
+
+#aboutTextDetails {
+    color: #C4D6CF;
+    background-color: #054462;
+    border-radius: 15px;
+    position: static;
+    font-size: 2vw;
+    padding: 2%;
+    max-width: 850px;
+    margin: 2%;
+    width: 100%;
+}
+
+#aboutLinkText {
+    font-size: 2vw;
+    margin: 2%;
+}
+
+div div nav p a {
+    font-size: 1.5vw;
+    background-color: #92C7B3;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #054462;
+    box-sizing: border-box;
+    padding: 0.5%;
+    margin: 2%;
+    position: relative;
+    line-height: 1.5;
+}
+
+div div nav p a:hover {
+    background-color: #054462;
+    color: #92C7B3;
+ }
+
+#tlmLink {
+    text-align: center;
+}
+
+#HITimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+/*מפת האתר*/
+.siteMap {
+    background-color: #054462;
+    align-items: center;
+    height: 35vw;
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+    border: 2px solid #054462;
+    border-radius: 15px;
+}
+
+.siteMap ul {
+    list-style: none;
+}
+
+.siteMap ul .mainPages {
+    display: inline-block;
+    float: right;
+    font-weight: bold;
+    font-size: 2vw;
+    text-align: center;
+    margin-top: 2%;
+    justify-content: space-between;
+    padding: 1%;
+    width: 100%;
+    max-width: 150px;
+}
+
+.siteMap a {
+    text-decoration: none;
+    color: #C4D6CF;
+    padding: 0.5%;
+}
+
+.siteMap ul .mainPages #sitMap2 {
+    position: absolute;
+    margin-top: 1%;
+    font-weight: normal;
+    font-size: 1.7vw;
+    text-align: right;
+    width: 100%;
+    max-width: 150px;
+}
+
+.siteMap ul .mainPages #sitMap2 #sitMap3 {
+    position: absolute;
+    margin-top: 1%;
+    font-weight: normal;
+    font-size: 1.7vw;
+    text-align: right;
+    width: auto;
+}
+
+.siteMap a:hover {
+    background-color: #C4D6CF;
+    color: #054462;
+    border-radius: 15px;
+}
+
+.secondPages {
+    margin-top: 1%;
+}
+/*צור קשר*/
+#contact {
+    padding: 2%;
+    display: block;
+}
+
+#contact img {
+   max-width: 40px;
+   width: 100%;
+   height: auto;
+   border: 2px solid #054462;
+   border-radius: 15px;
+   padding: 14%;
+   margin: 2%;
+}
+
+.telephon {
+    float: right;
+    line-height: 1.5;
+    padding: 1%;
+    margin: 1% 25% 1% 0px;
+    text-align: center;
+    max-width: 180px;
+    height: auto;
+    width: 100%;
+}
+
+.mail {
+    float: left;
+    line-height: 1.5;
+    padding: 1%;
+    margin: 1% 0px 1% 25%;
+    text-align: center;
+    max-width: 180px;
+    height: auto;
+    width: 100%;
+}
+
+.ContactText {
+    font-weight: bold;
+}
+
+#socialMedia {
+    text-align: center;
+    display: block;
+    margin-top: 20%;
+    width: 100%;
+}
+
+#socialMedia img {
+   padding: 1% 4%;
+   max-width: 40px;
+   width: 100%;
+   height: auto;
+ }
+
+#socialMedia a {
+   text-decoration: none;
+   max-width: 40px;
+   width: 100%;
+   height: auto;
+}
+
+#socialMedia a:hover img {
+   background-color: #92C7B3;
+   border: 2px solid #92C7B3;
+   border-radius: 30px;
+}
+
+#form {
+    display: block;
+    position: relative;
+    margin: 320px 350px;
+    line-height: 2;
+}
+
+#form h2 {
+    font-size: 3vw;
+    margin-top: 1%;
+}
+
+.Fcontact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 700px;
+    flex-direction: row;
+}
+
+#INPUT {
+    margin: 0 0 1% 3%;
+    max-width: 250PX;
+    width: 100%;
+}
+
+.TextAREA {
+    max-width: 250PX;
+    width: 100%;
+}
+
+#userM {
+    max-width: 550PX;
+    width: 100%;
+}
+
+#send {
+    margin-right: 350%;
+    margin-top: 150%;
+    display: block;
+}
